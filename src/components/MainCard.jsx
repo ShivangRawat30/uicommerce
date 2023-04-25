@@ -14,7 +14,7 @@ const ProductCard = () => {
           <p className=" p-10 text-4xl font-medium">
             Reach your full Potential{" "}
           </p>
-          <button className="py-2 px-7 text-2x border-2 translate(50px) absolute bottom-0 right-40px font-medium text-2xl">
+          <button className="py-2 px-7 text-2x border-2 translate(50px) absolute bottom-0 right-40px font-medium text-2xl hover:bg-[#00df9a]">
             Explore
           </button>
         </div>

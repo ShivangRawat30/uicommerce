@@ -1,14 +1,15 @@
 import React from "react";
 // import { a } from "react-router-dom";
 import { FaSearch, FaBell, FaHeart } from "react-icons/fa";
+import SearchIcon from "@mui/icons-material/Search";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-lg ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
-            <a to="/" className="font-bold text-2xl text-gray-800">
+            <a to="/" className="font-bold text-2xl text-[#00df9a]">
               E-Commerce Site
             </a>
           </div>
@@ -39,19 +40,19 @@ const Navbar = () => {
             </a>
             <div className="flex items-center ml-6 bg-white">
               <div className="relative">
-                <button className="bg-gray-200 p-1 rounded-full hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
+                <button className="p-1 rounded-full  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
                   <span className="sr-only">Search</span>
                   <FaSearch className="h-6 w-6 bg-white border-white" />
                 </button>
               </div>
               <div className="ml-3 relative">
-                <button className="bg-gray-200 p-1 rounded-full hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
+                <button className=" p-1 rounded-full hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
                   <span className="sr-only">Notifications</span>
-                  <FaBell className="h-6 w-6 bg-white border-white" />
+                  <FaBell className="h-7 w-7 bg-white border-white" />
                 </button>
               </div>
               <div className="ml-3 relative">
-                <button className="bg-gray-200 p-1 rounded-full hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
+                <button className=" p-1 rounded-full hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-200 focus:ring-white">
                   <span className="sr-only">Whislist</span>
                   <FaHeart className="h-6 w-6 bg-white border-white" />
                 </button>

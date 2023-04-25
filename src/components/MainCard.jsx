@@ -1,5 +1,3 @@
-import React from "react";
-import img from "../img/1.jpg";
 import cloth from "../img/cloth.jpg";
 
 const ProductCard = () => {

@@ -1,7 +1,6 @@
 import React from "react";
 // import { a } from "react-router-dom";
 import { FaSearch, FaBell, FaHeart } from "react-icons/fa";
-import SearchIcon from "@mui/icons-material/Search";
 
 const Navbar = () => {
   return (
